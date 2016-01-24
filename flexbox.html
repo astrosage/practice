@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+ 
+ 
+ 
+@media screen and (min-width: 800px){
+ 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+     -webkit-flex-direction: row;
+   flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.flex-item {font-size: 24px;}
+.top{ background-color: black; height:60px; font-size: 36px;padding: 20px;
+}
+}
+ 
+ 
+ 
+ 
+ 
+@media screen and (max-width: 800px){
+ 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+     -webkit-flex-direction: column;
+   flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ced7db;
+  }
+.top{background-color: grey;height: 40px; font-size: 24px;padding: 10px;}
+ 
+.flex-item {font-size: 16px; text-align:justify;}
+ 
+.circle{ width: 100px; height: 100px; border-radius: 50px; float:right; position:fixed; bottom: 50px;right:20px; background-color:rgba(40, 40, 40, 0.9);margin: 30px; box-shadow:0px 0px 20px #888888;}
+}
+body{margin:0; font-family:sans-serif;line-height: 1.5;}
+.top{
+width: 100%;
+color: #ffffff;
+position:static;
+float: left;
+transition: 1s;
+}
+ 
+::selection {
+    background: #80d3f9;
+    color: #fff;}
+ 
+ 
+.flex-item {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+ 
+ 
+}
+ 
+.item1 {
+    -webkit-flex: 6;
+    flex: 6;
+   
+}
+ 
+.item2 {
+    -webkit-flex: 4;
+    flex: 4;
+}
+ 
+.item3 {
+    -webkit-flex: 2;
+    flex: 2;
+}
+</style>
+</head>
+<body>
+<div class="top">Logo</div>
+<div class="flex-container">
+<div class="flex-item item1"><p>An explosion in Egypt killed six people, including three police officers and a civilian who was passing by, the Interior Ministry said Thursday.
+ 
+ISIS claimed responsibility for the blast in a statement posted to Twitter that was retweeted by several supporters. ISIS claimed to have killed 10 security officers and wounded 20 others.
+ 
+The explosion in Giza, Egypt's third-largest city, occurred after a joint police force raid at an apartment where members of the "terrorist Muslim Brotherhood" group made and stored explosives and IEDs, the ministry.
+ 
+"As the explosive expert was working on one of these explosives to secure the apartment, a booby trap blew up," killing three police officers and a citizen passing by, the ministry said.
+ 
+Two unidentified bodies were found and 13 people were injured, according to the ministry.
+ 
+Meanwhile, state-run news outlet Ahram Online said the blast killed 10 people, seven policemen and three civilians.
+ 
+Lt. Col. Mohamed Amin, the head of investigations department at the Haram police station, was among those injured, Ahram Online said.</p></div>
+  <div class="flex-item item2">An explosion in Egypt killed six people, including three police officers and a civilian who was passing by, the Interior Ministry said Thursday.
+ 
+ISIS claimed responsibility for the blast in a statement posted to Twitter that was retweeted by several supporters. ISIS claimed to have killed 10 security officers and wounded 20 others.
+ 
+The explosion in Giza, Egypt's third-largest city, occurred after a joint police force raid at an apartment where members of the "terrorist Muslim Brotherhood" group made and stored explosives and IEDs, the ministry.
+ 
+"As the explosive expert was working on one of these explosives to secure the apartment, a booby trap blew up," killing three police officers and a citizen passing by, the ministry said.
+ 
+Two unidentified bodies were found and 13 people were injured, according to the ministry.
+ 
+Meanwhile, state-run news outlet Ahram Online said the blast killed 10 people, seven policemen and three civilians.
+ 
+Lt. Col. Mohamed Amin, the head of investigations department at the Haram police station, was among those injured, Ahram Online said.</div>
+  <div class="flex-item item3">An explosion in Egypt killed six people, including three police officers and a civilian who was passing by, the Interior Ministry said Thursday.
+ 
+ISIS claimed responsibility for the blast in a statement posted to Twitter that was retweeted by several supporters. ISIS claimed to have killed 10 security officers and wounded 20 others.
+ 
+The explosion in Giza, Egypt's third-largest city, occurred after a joint police force raid at an apartment where members of the "terrorist Muslim Brotherhood" group made and stored explosives and IEDs, the ministry.
+ 
+</div> 
+</div>
+<div class="circle"></div>
+</body>
+</html>
